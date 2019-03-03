@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name max6369-left)(type Legacy)(uri /home/dwblair/Documents/feather-timer-decagon/ftd/max6369-left.lib)(options "")(descr ""))
+  (lib (name max6369)(type Legacy)(uri /home/dwblair/Documents/feather-timer-decagon/ftd/max6369.lib)(options "")(descr ""))
+)

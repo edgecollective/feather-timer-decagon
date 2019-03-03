@@ -1,0 +1,424 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Proto_FeatherWing-eagle-import:FEATHERWING MS?
+U 1 1 5C7B054F
+P 7100 3050
+F 0 "MS?" H 7100 3050 50  0001 C CNN
+F 1 "FEATHERWING" H 7100 3050 50  0001 C CNN
+F 2 "" H 7100 3050 50  0001 C CNN
+F 3 "" H 7100 3050 50  0001 C CNN
+	1    7100 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L adafruit_tpl5110:adafruit_tpl5110 U?
+U 1 1 5C7B0693
+P 1600 1700
+F 0 "U?" H 1781 1747 50  0000 L CNN
+F 1 "adafruit_tpl5110" H 1781 1654 50  0000 L CNN
+F 2 "" H 1600 1700 50  0001 C CNN
+F 3 "" H 1600 1700 50  0001 C CNN
+	1    1600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L max6369:max6369-left U?
+U 1 1 5C7B0B4A
+P 1700 3750
+F 0 "U?" H 1700 4200 50  0000 L CNN
+F 1 "max6369-left" H 1300 3650 50  0000 L CNN
+F 2 "" H 1700 3750 50  0001 C CNN
+F 3 "" H 1700 3750 50  0001 C CNN
+	1    1700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L max6369:max6369-right U?
+U 1 1 5C7B0D08
+P 2150 3750
+F 0 "U?" H 2050 4250 50  0000 C CNN
+F 1 "max6369-right" H 2250 3650 50  0000 C CNN
+F 2 "" H 2150 3750 50  0001 C CNN
+F 3 "" H 2150 3750 50  0001 C CNN
+	1    2150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04 J?
+U 1 1 5C7B1071
+P 3350 3750
+F 0 "J?" H 3350 3950 50  0000 L CNN
+F 1 "Conn_01x04" H 2950 3400 50  0000 L CNN
+F 2 "" H 3350 3750 50  0001 C CNN
+F 3 "~" H 3350 3750 50  0001 C CNN
+	1    3350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04 J?
+U 1 1 5C7B10E5
+P 3650 3750
+F 0 "J?" H 3650 3950 50  0000 C CNN
+F 1 "Conn_01x04" H 3500 3400 50  0000 C CNN
+F 2 "" H 3650 3750 50  0001 C CNN
+F 3 "~" H 3650 3750 50  0001 C CNN
+	1    3650 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08 J?
+U 1 1 5C7B153E
+P 3650 1650
+F 0 "J?" H 3600 2100 50  0000 L CNN
+F 1 "Conn_01x08" H 3250 1100 50  0000 L CNN
+F 2 "" H 3650 1650 50  0001 C CNN
+F 3 "~" H 3650 1650 50  0001 C CNN
+	1    3650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08 J?
+U 1 1 5C7B159E
+P 4000 1650
+F 0 "J?" H 4000 2100 50  0000 C CNN
+F 1 "Conn_01x08" H 3850 1050 50  0000 C CNN
+F 2 "" H 4000 1650 50  0001 C CNN
+F 3 "~" H 4000 1650 50  0001 C CNN
+	1    4000 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12 J?
+U 1 1 5C7B19DE
+P 8900 4250
+F 0 "J?" H 8818 3419 50  0000 C CNN
+F 1 "Conn_01x12" H 8818 3512 50  0000 C CNN
+F 2 "" H 8900 4250 50  0001 C CNN
+F 3 "~" H 8900 4250 50  0001 C CNN
+	1    8900 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x16 J?
+U 1 1 5C7B1B21
+P 6600 3950
+F 0 "J?" H 6680 3942 50  0000 L CNN
+F 1 "Conn_01x16" H 6680 3849 50  0000 L CNN
+F 2 "" H 6600 3950 50  0001 C CNN
+F 3 "~" H 6600 3950 50  0001 C CNN
+	1    6600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1350 4200 1450
+Wire Wire Line
+	4200 1450 4200 1550
+Connection ~ 4200 1450
+Wire Wire Line
+	4200 1550 4200 1650
+Connection ~ 4200 1550
+Wire Wire Line
+	4200 1750 4200 1650
+Connection ~ 4200 1650
+Wire Wire Line
+	4200 1750 4200 1850
+Connection ~ 4200 1750
+Wire Wire Line
+	4200 1850 4200 1950
+Connection ~ 4200 1850
+Wire Wire Line
+	4200 1950 4200 2050
+Connection ~ 4200 1950
+$Comp
+L Adafruit-FONA-800-GSM-Breakout-eagle-import:GND U?
+U 1 1 5C7B1F14
+P 4200 2150
+F 0 "U?" H 4250 2200 50  0001 C CNN
+F 1 "GND" H 4281 2186 42  0000 L CNN
+F 2 "" H 4200 2150 50  0001 C CNN
+F 3 "" H 4200 2150 50  0001 C CNN
+	1    4200 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4200 2050
+$Comp
+L device:R R?
+U 1 1 5C7B1FAF
+P 3300 1350
+F 0 "R?" V 3090 1350 50  0000 C CNN
+F 1 "R" V 3183 1350 50  0000 C CNN
+F 2 "" V 3230 1350 50  0001 C CNN
+F 3 "" H 3300 1350 50  0001 C CNN
+	1    3300 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5C7B1FFA
+P 3000 1450
+F 0 "R?" V 2790 1450 50  0000 C CNN
+F 1 "R" V 2883 1450 50  0000 C CNN
+F 2 "" V 2930 1450 50  0001 C CNN
+F 3 "" H 3000 1450 50  0001 C CNN
+	1    3000 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5C7B2030
+P 3300 1550
+F 0 "R?" V 3090 1550 50  0000 C CNN
+F 1 "R" V 3183 1550 50  0000 C CNN
+F 2 "" V 3230 1550 50  0001 C CNN
+F 3 "" H 3300 1550 50  0001 C CNN
+	1    3300 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5C7B2068
+P 3000 1650
+F 0 "R?" V 2790 1650 50  0000 C CNN
+F 1 "R" V 2883 1650 50  0000 C CNN
+F 2 "" V 2930 1650 50  0001 C CNN
+F 3 "" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5C7B209C
+P 3300 1750
+F 0 "R?" V 3090 1750 50  0000 C CNN
+F 1 "R" V 3183 1750 50  0000 C CNN
+F 2 "" V 3230 1750 50  0001 C CNN
+F 3 "" H 3300 1750 50  0001 C CNN
+	1    3300 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5C7B20D4
+P 3000 1850
+F 0 "R?" V 2790 1850 50  0000 C CNN
+F 1 "R" V 2883 1850 50  0000 C CNN
+F 2 "" V 2930 1850 50  0001 C CNN
+F 3 "" H 3000 1850 50  0001 C CNN
+	1    3000 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5C7B2181
+P 3300 1950
+F 0 "R?" V 3090 1950 50  0000 C CNN
+F 1 "R" V 3183 1950 50  0000 C CNN
+F 2 "" V 3230 1950 50  0001 C CNN
+F 3 "" H 3300 1950 50  0001 C CNN
+	1    3300 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5C7B21BD
+P 3000 2050
+F 0 "R?" V 2790 2050 50  0000 C CNN
+F 1 "R" V 2883 2050 50  0000 C CNN
+F 2 "" V 2930 2050 50  0001 C CNN
+F 3 "" H 3000 2050 50  0001 C CNN
+	1    3000 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 1700 1150 1700
+Wire Wire Line
+	1150 1700 1150 1350
+Wire Wire Line
+	1150 1350 2750 1350
+Wire Wire Line
+	2750 1350 2750 1450
+Wire Wire Line
+	2750 1450 2850 1450
+Connection ~ 2750 1350
+Wire Wire Line
+	2750 1350 3150 1350
+Wire Wire Line
+	2750 1450 2750 1550
+Wire Wire Line
+	2750 1650 2850 1650
+Connection ~ 2750 1450
+Wire Wire Line
+	2750 1650 2750 1750
+Wire Wire Line
+	2750 1850 2850 1850
+Connection ~ 2750 1650
+Wire Wire Line
+	2750 1850 2750 1950
+Wire Wire Line
+	2750 2050 2850 2050
+Connection ~ 2750 1850
+Wire Wire Line
+	2750 1950 3150 1950
+Connection ~ 2750 1950
+Wire Wire Line
+	2750 1950 2750 2050
+Wire Wire Line
+	2750 1750 3150 1750
+Connection ~ 2750 1750
+Wire Wire Line
+	2750 1750 2750 1850
+Wire Wire Line
+	2750 1550 3150 1550
+Connection ~ 2750 1550
+Wire Wire Line
+	2750 1550 2750 1650
+Wire Wire Line
+	3150 1450 3450 1450
+Wire Wire Line
+	3150 1650 3450 1650
+Wire Wire Line
+	3150 1850 3450 1850
+Wire Wire Line
+	3150 2050 3450 2050
+Wire Wire Line
+	2300 3650 2600 3650
+Wire Wire Line
+	2300 3750 2350 3750
+Wire Wire Line
+	1500 3750 1500 3950
+Wire Wire Line
+	1500 3950 2850 3950
+Wire Wire Line
+	3000 3950 3000 3850
+Wire Wire Line
+	3000 3850 3150 3850
+$Comp
+L device:R R?
+U 1 1 5C7BD08B
+P 2350 4250
+F 0 "R?" H 2420 4297 50  0000 L CNN
+F 1 "100K" V 2350 4150 50  0000 L CNN
+F 2 "" V 2280 4250 50  0001 C CNN
+F 3 "" H 2350 4250 50  0001 C CNN
+	1    2350 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3750 2350 4100
+Connection ~ 2350 3750
+Wire Wire Line
+	2350 3750 3150 3750
+Wire Wire Line
+	2600 3650 2600 4100
+Connection ~ 2600 3650
+Wire Wire Line
+	2600 3650 3150 3650
+Wire Wire Line
+	2850 3950 2850 4100
+Connection ~ 2850 3950
+Wire Wire Line
+	2850 3950 3000 3950
+$Comp
+L Adafruit-FONA-800-GSM-Breakout-eagle-import:GND U?
+U 1 1 5C7BE47A
+P 2350 4500
+F 0 "U?" H 2400 4550 50  0001 C CNN
+F 1 "GND" H 2431 4536 42  0000 L CNN
+F 2 "" H 2350 4500 50  0001 C CNN
+F 3 "" H 2350 4500 50  0001 C CNN
+	1    2350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-FONA-800-GSM-Breakout-eagle-import:GND U?
+U 1 1 5C7BE4B4
+P 2600 4500
+F 0 "U?" H 2650 4550 50  0001 C CNN
+F 1 "GND" H 2681 4536 42  0000 L CNN
+F 2 "" H 2600 4500 50  0001 C CNN
+F 3 "" H 2600 4500 50  0001 C CNN
+	1    2600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit-FONA-800-GSM-Breakout-eagle-import:GND U?
+U 1 1 5C7BE4E7
+P 2850 4500
+F 0 "U?" H 2900 4550 50  0001 C CNN
+F 1 "GND" H 2931 4536 42  0000 L CNN
+F 2 "" H 2850 4500 50  0001 C CNN
+F 3 "" H 2850 4500 50  0001 C CNN
+	1    2850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5C7BFBCE
+P 2600 4250
+F 0 "R?" H 2670 4297 50  0000 L CNN
+F 1 "100K" V 2600 4150 50  0000 L CNN
+F 2 "" V 2530 4250 50  0001 C CNN
+F 3 "" H 2600 4250 50  0001 C CNN
+	1    2600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5C7BFC0E
+P 2850 4250
+F 0 "R?" H 2920 4297 50  0000 L CNN
+F 1 "100K" V 2850 4150 50  0000 L CNN
+F 2 "" V 2780 4250 50  0001 C CNN
+F 3 "" H 2850 4250 50  0001 C CNN
+	1    2850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C7BFD0F
+P 3850 3500
+F 0 "#PWR?" H 3850 3350 50  0001 C CNN
+F 1 "+3V3" H 3865 3677 50  0000 C CNN
+F 2 "" H 3850 3500 50  0001 C CNN
+F 3 "" H 3850 3500 50  0001 C CNN
+	1    3850 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3650 3850 3500
+Wire Wire Line
+	3850 3750 3850 3650
+Connection ~ 3850 3650
+Wire Wire Line
+	3850 3850 3850 3750
+Connection ~ 3850 3750
+Wire Wire Line
+	1500 3550 900  3550
+Wire Wire Line
+	900  3550 900  3750
+$Comp
+L Adafruit-FONA-800-GSM-Breakout-eagle-import:GND U?
+U 1 1 5C7C3FFC
+P 900 3850
+F 0 "U?" H 950 3900 50  0001 C CNN
+F 1 "GND" H 981 3886 42  0000 L CNN
+F 2 "" H 900 3850 50  0001 C CNN
+F 3 "" H 900 3850 50  0001 C CNN
+	1    900  3850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
